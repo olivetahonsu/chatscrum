@@ -1,0 +1,166 @@
+.scrumboard{
+    position:relative;
+    margin: 0px;
+}
+
+.box{ 
+    width: 270px;
+    min-height: 300px;
+    box-shadow: 2px 4px 6px gray;
+  }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.box-title{
+    background-color: lightgray;
+    margin-top: 0;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.add-task-btn{
+    margin-top: 30px;
+    margin-left: 35px;
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #F94892;
+    color: white;
+    font-weight: 600;
+}
+
+
+.add-task-btn:hover{
+    background-color: white;
+    color: #F94892;
+    border: 1px solid green;
+}
+
+
+#info{
+    padding: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+nav{
+    background-color: rgb(16, 16, 90);
+    color: #eee;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.tasket{
+    padding: 5px;
+    font-weight: 400;
+    box-shadow: 1px 2px 2px gray;
+    color: rgb(16, 16, 90);
+    margin: 5px;
+    padding: 6px;
+}
+.show{
+    visibility:visible;
+}
+
+#close{
+    cursor: pointer;
+    color:#eee
+}
+
+#modal-container{
+    display: flex;
+    align-items:flex-end;
+    justify-content:flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);  
+}
+
+.modal{
+    background-color: #fff;
+    border-radius: 5px;
+    height: 200px;
+    width: 330px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding: 0px;
+    box-shadow: 2px 4px 6px gray;
+}
+
+.modal-header{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: rgb(16, 16, 90);
+    height: 60px;
+    margin-bottom: 0px;
+}
+
+.modal-form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 27px;
+  }
+
+#modal-input{
+    width: 250px;
+    height:fit-content;
+    margin-top: 40px; 
+}
+
+.modal-btn{
+    margin: 0px;
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #F94892;
+    color: white;
+    font-weight: 600;
+}
+
+.modal-btn:hover{
+    background-color: white;
+    color: #F94892;
+    border: 1px solid green;
+}
+
+
+#title{
+    color: #eee;
+    font-family: sans-serif;
+}
+
+#tasketer{
+    min-height: 301px;
+}
+
+.scroll{
+    overflow-y: scroll;
+    height: 320px;
+}
+
+#time{
+    font-size: 12px;
+    font-weight: 600;
+    color: crimson;
+}
+
+.blue{
+    color: darkblue;
+}
